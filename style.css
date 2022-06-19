@@ -1,0 +1,217 @@
+.dashboardCard {
+    background: #FFFFFF;
+    border-radius: 5px;
+    min-height: 235px;
+    min-width: 225px;
+    flex: 1;
+    margin: 0.5rem;
+    position: relative;
+    padding: .75rem .5rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.dashboardCard .graphDiv {
+    height: 95%;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.dashboardCard .typeHeader {
+    position: absolute;
+    top: -30px;
+    font-family: robotoMedium;
+}
+
+.dashboardCard select {
+    color: #80808B;
+    border: none;
+    font-size: 10px;
+    font-family: roboto;
+    outline: none;
+}
+
+.dashboardCard .dashboardCardHeader {
+    display: flex;
+    margin-bottom: 4px;
+    margin-top: 3px;
+    cursor: auto;
+}
+
+.dashboardCard .dashboardCardHeader .title {
+    color: #636675;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: roboto;
+    margin-right: auto;
+    margin-left: 10px;
+}
+
+.dashboardCard .amountOnCard {
+    width: 100%;
+    display: flex;
+    font-size: 21px;
+    line-height: 22px;
+    font-family: robotoMedium;
+    padding-left: 38px;
+    height: 25px;
+    cursor: auto;
+}
+
+.dashboardCard .amountOnCard .amountDiv {}
+
+.dashboardCard .amountOnCard .amountDiv .amountAfterDecimal {
+    font-size: 14px;
+    color: #B5B7C8;
+    font-family: roboto;
+}
+
+.dashboardCard .dashboardCardBody {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    overflow-y: hidden;
+    font-family: roboto;
+    padding: 10px 0px;
+    padding-bottom: 2px;
+}
+
+.dashboardCard .dashboardCardBody .clusterize-scroll {
+    max-height: 100%;
+}
+
+.dashboardCard .dashboardCardBody .listDivParent {
+    width: 90%;
+    padding: 10px 0;
+    text-align: left;
+}
+
+.dashboardCard .dashboardCardBody .listDivParent .listDiv {
+    display: flex;
+    justify-content: space-between;
+    color: #9198A7;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 6px 0px;
+}
+
+.dashboardCard .dashboardCardBody .listDivParent .listDiv .itemNameDiv {
+    width: 136px;
+    position: relative;
+}
+
+.dashboardCard .dashboardCardBody .listDivParent .listDiv .itemNameDiv:hover {}
+
+.dashboardCard .dashboardCardBody .listDivParent .listDiv .itemNameDiv:hover .listItemName {
+    color: #FFFFFF;
+    position: absolute;
+    white-space: normal;
+    background: #212934;
+    border-radius: 3px;
+    z-index: 9;
+    overflow: visible;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 0px 4px;
+    margin-left: -4px;
+}
+
+.dashboardCard .dashboardCardBody .listDivParent .listDiv .itemNameDiv .listItemName {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.dashboardCard .dashboardCardBody .listDivParent .listDiv .itemNameDivSmallText {
+    width: 55%;
+    position: relative;
+}
+
+.dashboardCard .dashboardCardBody .listDivParent .listDiv .itemNameDivSmallText .listItemName {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.dashboardCard .dashboardCardBody .listDivParent .listDiv .noOverflowAmount {
+    text-align: right;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.dashboardCard .dashboardCardBody .listDivParent .listDiv .noOverflowAmount .listAmountDiv {
+    text-align: right;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.dashboardCard .dashboardCardBody .listDivParent .listDiv .listItemValue {
+    text-align: right;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.dashboardCard .dashboardCardBody .listDivParent .listDiv .listItemValue .listAmountDiv {
+    text-align: right;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.dashboardCard .dashboardCardBody .listDivParent .listDiv .greenText {
+    color: #08BD7C;
+}
+
+.dashboardCard .dashboardCardBody .listDivParent .listDiv .redText {
+    color: #F26546;
+}
+
+.dashboardCard .dashboardCardBody .amountOnCard {
+    width: 100%;
+    display: flex;
+    font-size: 21px;
+    line-height: 22px;
+    white-space: nowrap;
+    font-family: robotoMedium;
+    padding-left: 38px;
+}
+
+.dashboardCard .dashboardCardBody .textIfListEmpty {
+    width: 172px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-family: roboto;
+    line-height: 19px;
+    color: #B5B7C8;
+}
+
+.dashboardCard .saleOrdersCardBody,
+.dashboardCard .deliveryChallansCardBody,
+.dashboardCard .purchaseOrdersCardBody,
+.dashboardCard .openChequesCardBody {}
+
+.dashboardCard .saleOrdersCardBody,
+.dashboardCard .deliveryChallansCardBody,
+.dashboardCard .purchaseOrdersCardBody,
+.dashboardCard .openChequesCardBody .listDiv {
+    margin-top: 10px;
+}
+
+.dashboardCard .saleOrdersCardBody,
+.dashboardCard .deliveryChallansCardBody,
+.dashboardCard .purchaseOrdersCardBody,
+.dashboardCard .openChequesCardBody tr td {
+    padding: 10px 0;
+}
