@@ -1,0 +1,18 @@
+.text {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 16px;
+    color: #80808B;
+    text-align: center;
+}
+
+.buttonRoot {
+    text-align: center;
+    background-color: #F3A33A;
+    text-transform: capitalize;
+    color: white;
+}
+
+.buttonRoot:hover {
+    background-color: rgba(245, 179, 88, 1);
+}
